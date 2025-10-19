@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: url("/Simple%20To%20Do%20Web%20App/assets/background1.jpg") no-repeat center center / cover;
+  background: url("assets/background1.jpg") no-repeat center center / cover;
   margin: 0;
   padding: 0;
   display: flex;
@@ -95,3 +95,4 @@ button.delete-btn:hover {
 .clear:hover {
   background: #495057;
 }
+
