@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("/Simple%20To%20Do%20Web%20App/assets/background1.jpg") no-repeat center center / cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#addTaskBtn {
+  padding: 10px 16px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#addTaskBtn:hover {
+  background: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+button.delete-btn {
+  background: #dc3545;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+button.delete-btn:hover {
+  background: #a71d2a;
+}
+
+.clear {
+  margin-top: 15px;
+  background: #6c757d;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.clear:hover {
+  background: #495057;
+}
