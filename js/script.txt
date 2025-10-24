@@ -1,1 +1,0 @@
-Documentation for script.js file. Any changes to the script.js file is recorded here.
